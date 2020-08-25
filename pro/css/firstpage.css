@@ -1,0 +1,152 @@
+#header{
+	border-top: 3px solid #d9232e;
+	color: #000000;
+}
+#header>.nav-header{
+	background-color: #fff;
+}
+#img1{
+	width: 15%;
+}
+#header .icoding{
+	position: relative;
+	left: 46px;
+	color: #6C757D;
+}
+#3div,#div31,#div32,#div33{
+	display: table-cell;
+}
+#div3_span1{
+	position: absolute;
+	right: 20px;
+	top: 50px;
+	font-size: 50px;
+	color: #fff;
+}
+#div31:hover span{
+	color: red;
+}
+#div33:hover span{
+	color: red;
+	border-top:#f00;
+	border-bottom:#f00;
+}
+
+#dianpu{
+	font-size: 46px;
+	position: absolute;
+	right: 150px;
+	top: 130px;
+	color: #fff;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+}
+#div3{
+	margin-bottom: 20px;
+}
+.container #youxuan{
+	width: 100%;
+	height: 60px;
+	font-size: 40px;
+	margin: 50px auto;
+	text-align: center;
+	color: #333;
+}
+#mid{
+	color:#000;
+}
+.container #xiaodian{
+	width: 21px;
+	height: 3px;
+	background-color: #f00;
+	margin-left: 80px;
+}
+hr{
+	margin-top:-2px;
+}
+.gg{
+	padding-top: 10px;
+	position: absolute;
+	margin-top: 6px;
+	margin-left: 52px;
+}
+.container #xinwen{
+	width: 100%;
+	height: 60px;
+	font-size: 40px;
+	margin: 50px auto;
+	text-align: center;
+	color: #333;
+}
+.r2{
+	height: 2px;
+	background-color: #000000;
+}
+.carousel-indicators li{
+				width: 12px;height: 12px;
+				border-radius: 50%;
+				background: #fff;
+				margin-left: 0.25rem;
+				margin-right: 0.25rem;
+			}
+			.carousel-indicators .active {
+				background: #0aa1ed;
+			}
+			.carousel-control-prev,
+			.carousel-control-next{
+				width: 4%;height: 20%;
+				background-color: #aaa;
+				border-radius: 0.25rem;
+				top:40%;
+			}
+.text_1:hover{
+	color: red;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link{
+	color: #002752;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus{
+	color: #000;
+}
+.navbar-dark .navbar-toggler{
+	color:#ff0;
+	border-color: #000;
+}
+.btn-warning:hover{
+	background-color: #fff;
+	border-color: #000;
+}
+.btn-warning{
+	background-color: #fff;
+	overflow: hidden;
+}
+.btn-warning:focus{
+	box-shadow: 0 0 0 0 #000000;
+	outline: 0;
+}
+..btn-warning:active{
+	box-shadow: 0 0 0 0 #000;
+	outline: 0;
+}
+.xuanze>.dropdown-toggle{
+	color: #000000;
+	background-color: transparent;
+	border-color: #000;
+}
+.xuanze>.dropdown-toggle:focus{
+	box-shadow: 0 0 0 0 #000;
+}	
+.navbar .navbar-toggler{
+	background-color: #d9232e;
+	margin-left: 70%;
+}
+@media (min-width:576px) and (max-width:768px){
+	#navbar{
+		position: relative;
+	}
+	#navbar>.navbar-toggler{
+		top: 0;
+		right: 0;
+		position: absolute;
+	}
+}

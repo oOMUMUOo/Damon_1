@@ -1,0 +1,40 @@
+#header{
+	border-top: 3px solid #d9232e;
+	color: #000000;
+}
+#header>.nav-header{
+	background-color: #fff;
+}
+#img1{
+	width: 15%;
+}
+.hr_1{
+	height: 2px;
+	background-color: #e8e8e8;
+}
+.text_1:hover{
+	color: red;
+}
+.container{
+	position: relative;
+}
+.xiaodian_2{
+	width: 21px;
+	height: 3px;
+	background-color: red;
+	margin-left: 900px;
+	margin-top: 20px;
+}
+#mid a{
+	text-decoration: none;
+}
+.xiaodian_3{
+	width: 21px;
+	height: 3px;
+	background-color: #f00;
+	margin-left: 80px;
+	margin-top: 20px;
+}
+#dropdown-menu-1{
+	width: 4.5rem !important;
+}
