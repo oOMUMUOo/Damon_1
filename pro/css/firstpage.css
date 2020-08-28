@@ -124,7 +124,7 @@ hr{
 	box-shadow: 0 0 0 0 #000000;
 	outline: 0;
 }
-..btn-warning:active{
+.btn-warning:active{
 	box-shadow: 0 0 0 0 #000;
 	outline: 0;
 }

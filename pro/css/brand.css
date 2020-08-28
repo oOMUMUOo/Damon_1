@@ -1,0 +1,142 @@
+#header{
+	border-top: 3px solid #d9232e;
+	color: #000000;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link{
+	color: #002752;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus{
+	color: #000;
+}
+.navbar-dark .navbar-toggler{
+	color:#ff0;
+	border-color: #000;
+}
+.btn-warning:hover{
+	background-color: #fff;
+	border-color: #000;
+}
+.btn-warning{
+	background-color: #fff;
+	overflow: hidden;
+}
+.btn-warning:focus{
+	box-shadow: 0 0 0 0 #000000;
+	outline: 0;
+}
+.btn-warning:active{
+	box-shadow: 0 0 0 0 #000;
+	outline: 0;
+}
+.xuanze>.dropdown-toggle{
+	color: #000000;
+	background-color: transparent;
+	border-color: #000;
+}
+.xuanze>.dropdown-toggle:focus{
+	box-shadow: 0 0 0 0 #000;
+}	
+.navbar .navbar-toggler{
+	background-color: #d9232e;
+	margin-left: 70%;
+}
+@media (min-width:576px) and (max-width:768px){
+	#navbar{
+		position: relative;
+	}
+	#navbar>.navbar-toggler{
+		top: 0;
+		right: 0;
+		position: absolute;
+	}
+}
+.active{
+	color: #D9232E;
+}
+.datu{
+	width: 100%;
+	height: 650px;
+	padding: 83px 0 82px;
+	background-image: url(../image/bibg.png);
+	background-color: #f9f5f5;
+	background-repeat: no-repeat;
+	background-position: center 83px;
+	background-size: 446px 446px;
+}
+.ttl{
+	font-size: 40px;
+	color: #E8E8E8;
+	opacity: 0.3;
+}
+.font_sma{
+	font-size: 14px;
+}
+.font_big{
+	font-size: 34px;
+}
+@media (min-width:576px) and (max-width:992px) {
+	.ttl{font-size:24px ;}
+	.font_big{font-size: 24px;}
+	.wuwu{font-size: 14px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	text-align: start;
+	}
+	.didi{font-size: 1rem;}
+	.ding{font-size: 14px; }
+	.ding2{font-size: 10px;}
+	.ding3{font-size: 14px;}
+	.last{
+		position: relative;
+	}
+	.last_img{
+		position: absolute;
+		padding-top:42%;
+	}
+}
+@media (min-width:576px) and (max-width:768px) {
+	.last{
+		position: relative;
+	}
+	.last_img{
+		position: absolute;
+		padding-top:102%;
+	}
+}
+.chuangshi{
+	background-color: #D9232E;
+}
+.font_xl{
+	font-size: 45px;
+}
+.font_middle{
+	font-size: 22px;
+}
+.dev{
+	opacity: 0.3;
+}
+.font_dev{
+	font-size: 36px;
+}
+.div_1{
+	border: 1px solid #d6d6d6;
+}
+.div_0{
+	border-right: 1px dashed #d6d6d6;
+}
+.die_dian{
+	position: relative;
+}
+.dian{
+	position: absolute;
+	bottom: 0px;
+}
+
+
+.div_cal{
+	background-color: #F9F5F5;
+}
+.r2{
+	height: 2px;
+	background-color: #000000;
+}
